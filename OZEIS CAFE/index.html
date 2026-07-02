@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="OZEIS CAFE – Where Coffee Meets Comfort. Nikmati pengalaman minum kopi premium terbaik dengan suasana kafe modern, elegan, dan nyaman di Ozeis Cafe.">
+    <meta name="keywords"
+        content="Ozeis Cafe, Kopi Premium, Coffee Shop Modern, Cafe Terracotta, Tempat Nongkrong Jakarta, Coffee Shop Elegant">
+    <meta name="author" content="Ozeis Cafe">
+    <title>OZEIS CAFE – Where Coffee Meets Comfort</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom Style CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-text">OZEIS</span>
+            </a>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#menu" class="nav-link">Menu</a></li>
+                <li><a href="#story" class="nav-link">Our Story</a></li>
+                <li><a href="#location" class="nav-link">Location</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero-section" style="background-image: url('assets/kasir.jpg');">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <div class="hero-logo-container scroll-reveal-fade">
+                    <h1 class="hero-title">OZEIS CAFE</h1>
+                    <p class="hero-tagline">"Where Coffee Meets Comfort."</p>
+                </div>
+                <div class="hero-buttons scroll-reveal-fade" style="animation-delay: 0.3s;">
+                    <a href="#menu" class="btn btn-primary">Explore Menu</a>
+                    <a href="#location" class="btn btn-secondary">Visit Us</a>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span class="scroll-mouse"><span class="scroll-wheel"></span></span>
+                <span class="scroll-text">Scroll Down</span>
+            </div>
+        </section>
+
+        <!-- Featured Menu Section -->
+        <section id="featured" class="section featured-section">
+            <div class="container">
+                <div class="section-header scroll-reveal">
+                    <span class="section-subtitle">Pilihan Terbaik Kami</span>
+                    <h2 class="section-title">Featured Menu</h2>
+                    <div class="title-divider"></div>
+                </div>
+
+                <div class="featured-grid">
+                    <!-- Featured Item 1 - Butterscotch -->
+                    <div class="menu-card scroll-reveal-fade">
+                        <div class="card-img-wrapper">
+                            <img src="assets/kopi.jpg" alt="Butterscotch Coffee" loading="lazy">
+                            <span class="card-badge">Signature</span>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Butterscotch</h3>
+                            <p class="card-desc">Espresso premium dengan saus butterscotch manis gurih dan susu creamy
+                                yang memanjakan setiap tegukan.</p>
+                            <div class="card-footer">
+                                <span class="card-price">Rp 30.000</span>
+                                <a href="https://wa.me/6281234567890?text=Halo%20Ozeis%20Cafe,%20saya%20ingin%20memesan%20Butterscotch"
+                                    target="_blank" class="card-order-btn"
+                                    aria-label="Order Butterscotch via WhatsApp"><i
+                                        class="fa-solid fa-cart-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Featured Item 2 - Strawberry Creamy Matcha -->
+                    <div class="menu-card scroll-reveal-fade" style="animation-delay: 0.2s;">
+                        <div class="card-img-wrapper">
+                            <img src="assets/matcha.jpg" alt="Strawberry Creamy Matcha" loading="lazy">
+                            <span class="card-badge">Best Seller</span>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Strawberry Creamy Matcha</h3>
+                            <p class="card-desc">Matcha premium dengan lapisan cream stroberi lembut di atasnya,
+                                perpaduan manis segar yang cantik dan menggoda.</p>
+                            <div class="card-footer">
+                                <span class="card-price">Rp 33.000</span>
+                                <a href="https://wa.me/6281234567890?text=Halo%20Ozeis%20Cafe,%20saya%20ingin%20memesan%20Strawberry%20Creamy%20Matcha"
+                                    target="_blank" class="card-order-btn"
+                                    aria-label="Order Strawberry Creamy Matcha via WhatsApp"><i
+                                        class="fa-solid fa-cart-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Featured Item 3 - Mix Platter -->
+                    <div class="menu-card scroll-reveal-fade" style="animation-delay: 0.4s;">
+                        <div class="card-img-wrapper">
+                            <img src="assets/mix.jpg" alt="Mix Platter" loading="lazy">
+                            <span class="card-badge">Premium</span>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Mix Platter</h3>
+                            <p class="card-desc">Piring campur aneka snack pilihan terbaik, sajian sempurna untuk
+                                berbagi kebersamaan bersama teman.</p>
+                            <div class="card-footer">
+                                <span class="card-price">Rp 28.000</span>
+                                <a href="https://wa.me/6281234567890?text=Halo%20Ozeis%20Cafe,%20saya%20ingin%20memesan%20Mix%20Platter"
+                                    target="_blank" class="card-order-btn"
+                                    aria-label="Order Mix Platter via WhatsApp"><i
+                                        class="fa-solid fa-cart-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Quote Section -->
+        <section class="quote-section">
+            <div class="quote-container scroll-reveal">
+                <i class="fa-solid fa-quote-left quote-icon"></i>
+                <blockquote class="quote-text">"Every Cup Holds a Story."</blockquote>
+                <cite class="quote-author">— Ozeis Cafe</cite>
+            </div>
+        </section>
+
+        <!-- Pinterest-Style Gallery Section -->
+        <section id="gallery" class="section gallery-section">
+            <div class="container">
+                <div class="section-header scroll-reveal">
+                    <span class="section-subtitle">Galeri Keindahan</span>
+                    <h2 class="section-title">Our Visual Space</h2>
+                    <div class="title-divider"></div>
+                </div>
+
+                <div class="gallery-masonry scroll-reveal-fade">
+                    <!-- Gallery Item 1 - Tampak Depan -->
+                    <div class="gallery-item size-tall">
+                        <img src="assets/1.jpeg" alt="Ozeis Cafe tampak depan" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Welcome to Ozeis</h3>
+                                <p>Pintu masuk menuju pengalaman kopi terbaik</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 2 - Ruang Dalam -->
+                    <div class="gallery-item size-medium">
+                        <img src="assets/3.jpeg" alt="Ozeis Cafe ruang dalam" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Cozy Interior</h3>
+                                <p>Ruang nyaman untuk bersantai dan berkarya</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 3 - Area Barista -->
+                    <div class="gallery-item size-medium">
+                        <img src="assets/4.jpeg" alt="Ozeis Cafe area barista" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Barista Station</h3>
+                                <p>Tempat di mana setiap kopi dibuat dengan penuh dedikasi</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 4 - Area Duduk Luas -->
+                    <div class="gallery-item size-small">
+                        <img src="assets/6.jpeg" alt="Ozeis Cafe area duduk" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Space to Gather</h3>
+                                <p>Ruang luas untuk berkumpul bersama orang tersayang</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 5 - Logo Ozeis (tengah bawah) -->
+                    <div class="gallery-item size-tall">
+                        <img src="assets/2.jpeg" alt="Ozeis Cafe signboard logo" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Our Identity</h3>
+                                <p>Lebih dari sekadar kafe — sebuah gaya hidup</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 6 - Pickup & Order -->
+                    <div class="gallery-item size-medium">
+                        <img src="assets/5.jpeg" alt="Ozeis Cafe pickup and order" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Order Your Way</h3>
+                                <p>Pesan langsung di kasir kami yang ramah dan sigap</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section" style="background-image: url('assets/hero_bg.png');">
+            <div class="cta-overlay"></div>
+            <div class="cta-content container scroll-reveal">
+                <h2>Come and Enjoy the Warmth of OZEIS.</h2>
+                <p>Temukan ketenangan dan cita rasa kopi sejati di setiap sudut ruang kami.</p>
+                <a href="#location" class="btn btn-primary">Visit Our Cafe</a>
+            </div>
+        </section>
+
+        <!-- Interactive Menu Section -->
+        <section id="menu" class="section menu-section">
+            <div class="container">
+                <div class="section-header scroll-reveal">
+                    <span class="section-subtitle">Daftar Menu Lengkap</span>
+                    <h2 class="section-title">Explore Menu</h2>
+                    <div class="title-divider"></div>
+                </div>
+
+                <!-- Menu Category Filter -->
+                <div class="menu-filters scroll-reveal-fade">
+                    <button class="filter-btn active" data-filter="all">Semua</button>
+                    <button class="filter-btn" data-filter="coffee">☕ Coffee</button>
+                    <button class="filter-btn" data-filter="non-coffee">🥛 Non-Coffee</button>
+                    <button class="filter-btn" data-filter="americano">🫖 Americano Series</button>
+                    <button class="filter-btn" data-filter="tea">🍵 Tea</button>
+                    <button class="filter-btn" data-filter="fresh-drink">🧃 Fresh Drink</button>
+                    <button class="filter-btn" data-filter="main-course">🍽️ Main Course</button>
+                    <button class="filter-btn" data-filter="snacks">🍟 Snacks</button>
+                </div>
+
+                <!-- Menu Items Grid -->
+                <div class="menu-grid scroll-reveal-fade">
+
+                    <!-- ===== COFFEE ===== -->
+                    <div class="menu-item-card" data-category="coffee">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Espresso</h3>
+                                <span class="item-price">Rp 15.000</span>
+                            </div>
+                            <p class="item-desc">Kopi espresso murni pekat dengan crema tebal. Hot only.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="coffee">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Cappucino</h3>
+                                <span class="item-price">Rp 23.000</span>
+                            </div>
+                            <p class="item-desc">Espresso dengan steamed milk dan foam tebal. Hot / Ice Rp 23.000.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="coffee">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Mochachino ★</h3>
+                                <span class="item-price">Rp 28.000</span>
+                            </div>
+                            <p class="item-desc">Perpaduan espresso, cokelat, dan susu creamy yang lembut dan kaya rasa.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="coffee">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Kopi Susu</h3>
+                                <span class="item-price">Rp 18.000</span>
+                            </div>
+                            <p class="item-desc">Kopi susu klasik Indonesia. Hot Rp 18.000 / Ice Rp 20.000.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="coffee">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Kopi Aren ★</h3>
+                                <span class="item-price">Rp 25.000</span>
+                            </div>
+                            <p class="item-desc">Kopi berpadu gula aren asli dengan rasa karamel alami yang khas. Hot /
+                                Ice Rp 25.000.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="coffee">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Butterscotch ★</h3>
+                                <span class="item-price">Rp 30.000</span>
+                            </div>
+                            <p class="item-desc">Espresso dengan saus butterscotch manis gurih dan susu creamy.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="coffee">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Salted Caramel</h3>
+                                <span class="item-price">Rp 28.000</span>
+                            </div>
+                            <p class="item-desc">Kopi latte dengan sentuhan karamel asin yang memanjakan lidah.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="coffee">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Caramel Macchiato</h3>
+                                <span class="item-price">Rp 30.000</span>
+                            </div>
+                            <p class="item-desc">Espresso dingin dengan susu segar, vanilla, dan siraman saus karamel
+                                premium.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="coffee">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Kopi Pandan</h3>
+                                <span class="item-price">Rp 28.000</span>
+                            </div>
+                            <p class="item-desc">Kopi susu dengan aroma pandan wangi khas Nusantara yang unik.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="coffee">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Kopi Pisang ★</h3>
+                                <span class="item-price">Rp 28.000</span>
+                            </div>
+                            <p class="item-desc">Perpaduan espresso dan sirup pisang alami yang segar dan manis.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="coffee">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Kopi Vanilla</h3>
+                                <span class="item-price">Rp 28.000</span>
+                            </div>
+                            <p class="item-desc">Latte lembut dengan aroma vanilla Madagascar yang harum dan elegan.</p>
+                        </div>
+                    </div>
+
+                    <!-- ===== NON COFFEE ===== -->
+                    <div class="menu-item-card" data-category="non-coffee">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Matcha Latte ★</h3>
+                                <span class="item-price">Rp 28.000</span>
+                            </div>
+                            <p class="item-desc">Matcha premium Jepang dengan susu creamy. Hot / Ice Rp 28.000.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="non-coffee">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Strawberry Matcha</h3>
+                                <span class="item-price">Rp 30.000</span>
+                            </div>
+                            <p class="item-desc">Perpaduan matcha dan stroberi segar yang cantik dan menyegarkan.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="non-coffee">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Strawberry Creamy Matcha ★</h3>
+                                <span class="item-price">Rp 33.000</span>
+                            </div>
+                            <p class="item-desc">Matcha dengan lapisan cream stroberi lembut di atasnya.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="non-coffee">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Matcha Berry</h3>
+                                <span class="item-price">Rp 30.000</span>
+                            </div>
+                            <p class="item-desc">Matcha segar dipadukan dengan campuran buah beri pilihan yang asam
+                                manis.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="non-coffee">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Chocolate</h3>
+                                <span class="item-price">Rp 23.000</span>
+                            </div>
+                            <p class="item-desc">Minuman cokelat klasik hangat maupun dingin. Hot / Ice Rp 23.000.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="non-coffee">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Chocolate Vanilla</h3>
+                                <span class="item-price">Rp 25.000</span>
+                            </div>
+                            <p class="item-desc">Cokelat lembut dengan sentuhan vanilla yang harum dan manis.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="non-coffee">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Chocolate Banana ★</h3>
+                                <span class="item-price">Rp 25.000</span>
+                            </div>
+                            <p class="item-desc">Perpaduan cokelat kaya rasa dengan pisang segar yang creamy.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="non-coffee">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Chocolate Caramel</h3>
+                                <span class="item-price">Rp 25.000</span>
+                            </div>
+                            <p class="item-desc">Cokelat premium dengan drizzle karamel manis yang menggugah selera.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="non-coffee">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Markisa ★</h3>
+                                <span class="item-price">Rp 18.000</span>
+                            </div>
+                            <p class="item-desc">Minuman markisa segar asli. Hot Rp 18.000 / Ice Rp 20.000.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="non-coffee">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Mineral Water</h3>
+                                <span class="item-price">Rp 5.000</span>
+                            </div>
+                            <p class="item-desc">Air mineral kemasan dingin segar.</p>
+                        </div>
+                    </div>
+
+                    <!-- ===== AMERICANO SERIES ===== -->
+                    <div class="menu-item-card" data-category="americano">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Americano</h3>
+                                <span class="item-price">Rp 15.000</span>
+                            </div>
+                            <p class="item-desc">Espresso dengan air panas murni, ringan namun tetap beraroma kuat. Hot
+                                Rp 15.000 / Ice Rp 18.000.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="americano">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Americano Peach ★</h3>
+                                <span class="item-price">Rp 25.000</span>
+                            </div>
+                            <p class="item-desc">Americano dingin dipadukan sirup persik segar yang manis dan harum.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="americano">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Americano Lychee</h3>
+                                <span class="item-price">Rp 25.000</span>
+                            </div>
+                            <p class="item-desc">Americano segar dengan sentuhan leci manis yang eksotis.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="americano">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Americano Berry ★</h3>
+                                <span class="item-price">Rp 28.000</span>
+                            </div>
+                            <p class="item-desc">Americano dingin dengan campuran beri pilihan yang asam segar dan
+                                berwarna cantik.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="americano">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Americano Markisa</h3>
+                                <span class="item-price">Rp 28.000</span>
+                            </div>
+                            <p class="item-desc">Americano berpadu markisa asli yang asam segar, unik, dan menyegarkan.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- ===== TEA ===== -->
+                    <div class="menu-item-card" data-category="tea">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Lemon Tea</h3>
+                                <span class="item-price">Rp 20.000</span>
+                            </div>
+                            <p class="item-desc">Teh segar dengan perasan lemon asli. Hot / Ice Rp 20.000.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="tea">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Black Tea</h3>
+                                <span class="item-price">Rp 18.000</span>
+                            </div>
+                            <p class="item-desc">Teh hitam klasik pilihan dengan aroma kuat dan rasa teh murni. Hot /
+                                Ice Rp 18.000.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="tea">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Lychee Tea ★</h3>
+                                <span class="item-price">Rp 20.000</span>
+                            </div>
+                            <p class="item-desc">Teh wangi berpadu leci manis yang segar dan menenangkan. Hot / Ice Rp
+                                20.000.</p>
+                        </div>
+                    </div>
+
+                    <!-- ===== FRESH DRINK ===== -->
+                    <div class="menu-item-card" data-category="fresh-drink">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Moonlight ★</h3>
+                                <span class="item-price">Rp 25.000</span>
+                            </div>
+                            <p class="item-desc">Minuman segar dengan perpaduan buah dan rasa manis yang misterius dan
+                                memanjakan.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="fresh-drink">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Pink Lady</h3>
+                                <span class="item-price">Rp 25.000</span>
+                            </div>
+                            <p class="item-desc">Minuman berwarna pink cantik dengan rasa buah segar yang ringan.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="fresh-drink">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Lemonade Yakult ★</h3>
+                                <span class="item-price">Rp 25.000</span>
+                            </div>
+                            <p class="item-desc">Lemonade segar dengan Yakult probiotik yang asam manis dan menyehatkan.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="fresh-drink">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Lemonade Lychee</h3>
+                                <span class="item-price">Rp 25.000</span>
+                            </div>
+                            <p class="item-desc">Lemonade segar dipadukan leci manis yang eksotis dan menyegarkan.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="fresh-drink">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Lemonade Peach</h3>
+                                <span class="item-price">Rp 25.000</span>
+                            </div>
+                            <p class="item-desc">Lemonade klasik dengan tambahan sirup persik yang harum dan manis.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="fresh-drink">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Sky Berry</h3>
+                                <span class="item-price">Rp 25.000</span>
+                            </div>
+                            <p class="item-desc">Minuman beri biru segar dengan rasa asam manis yang cerah dan berwarna
+                                cantik.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="fresh-drink">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Apple Berry ★</h3>
+                                <span class="item-price">Rp 28.000</span>
+                            </div>
+                            <p class="item-desc">Jus apel segar dipadukan campuran beri pilihan yang asam manis dan
+                                menyegarkan.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="fresh-drink">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Markisa</h3>
+                                <span class="item-price">Rp 25.000</span>
+                            </div>
+                            <p class="item-desc">Minuman markisa segar asam manis yang khas dan menyegarkan.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="fresh-drink">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Markisa Pisang</h3>
+                                <span class="item-price">Rp 28.000</span>
+                            </div>
+                            <p class="item-desc">Paduan markisa asam segar dengan pisang manis alami yang unik.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="fresh-drink">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Markisa Strawberry ★</h3>
+                                <span class="item-price">Rp 28.000</span>
+                            </div>
+                            <p class="item-desc">Markisa segar berpadu stroberi manis yang cantik dan penuh vitamin.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="fresh-drink">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Markisa Tea</h3>
+                                <span class="item-price">Rp 28.000</span>
+                            </div>
+                            <p class="item-desc">Teh dingin dipadukan dengan markisa asam segar yang menyegarkan.</p>
+                        </div>
+                    </div>
+
+                    <!-- ===== MAIN COURSE ===== -->
+                    <div class="menu-item-card" data-category="main-course">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Nasi Ayam Goreng ★</h3>
+                                <span class="item-price">Rp 30.000</span>
+                            </div>
+                            <p class="item-desc">Nasi putih pulen dengan ayam goreng renyah bumbu rempah khas.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="main-course">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Chicken Teriyaki</h3>
+                                <span class="item-price">Rp 28.000</span>
+                            </div>
+                            <p class="item-desc">Ayam panggang dengan saus teriyaki Jepang manis gurih, disajikan dengan
+                                nasi.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="main-course">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Chicken Katsu ★</h3>
+                                <span class="item-price">Rp 30.000</span>
+                            </div>
+                            <p class="item-desc">Ayam katsu renyah dengan saus katsu khas Jepang dan nasi hangat.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="main-course">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Chicken Wings</h3>
+                                <span class="item-price">Rp 28.000</span>
+                            </div>
+                            <p class="item-desc">Sayap ayam goreng renyah dengan bumbu pilihan dan saus celup spesial.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="main-course">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Nasi Goreng Telur</h3>
+                                <span class="item-price">Rp 28.000</span>
+                            </div>
+                            <p class="item-desc">Nasi goreng klasik dengan telur dadar, bumbu rempah, dan kerupuk.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="main-course">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Nasi Goreng Ayam ★</h3>
+                                <span class="item-price">Rp 30.000</span>
+                            </div>
+                            <p class="item-desc">Nasi goreng spesial dengan potongan ayam empuk dan bumbu wangi.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="main-course">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Indomie Goreng / Soto</h3>
+                                <span class="item-price">Rp 15.000</span>
+                            </div>
+                            <p class="item-desc">Indomie original goreng atau kuah soto yang selalu memuaskan.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="main-course">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Indomie Goreng / Soto + Telur</h3>
+                                <span class="item-price">Rp 18.000</span>
+                            </div>
+                            <p class="item-desc">Indomie goreng atau soto lengkap dengan tambahan telur mata sapi.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="main-course">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Indomie Goreng / Soto Double</h3>
+                                <span class="item-price">Rp 20.000</span>
+                            </div>
+                            <p class="item-desc">Porsi double Indomie goreng atau soto untuk yang ekstra lapar.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="main-course">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Indomie Double + Telur</h3>
+                                <span class="item-price">Rp 23.000</span>
+                            </div>
+                            <p class="item-desc">Porsi double Indomie dengan telur untuk kenyang maksimal.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="main-course">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Udang / Cumi Goreng Tepung</h3>
+                                <span class="item-price">Rp 35.000</span>
+                            </div>
+                            <p class="item-desc">Udang atau cumi goreng tepung renyah dengan cocolan saus mayo spesial.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="main-course">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Udang / Cumi Goreng Asam Manis</h3>
+                                <span class="item-price">Rp 35.000</span>
+                            </div>
+                            <p class="item-desc">Udang atau cumi dengan saus asam manis khas yang menggugah selera.</p>
+                        </div>
+                    </div>
+
+                    <!-- ===== SNACKS ===== -->
+                    <div class="menu-item-card" data-category="snacks">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">French Fries</h3>
+                                <span class="item-price">Rp 20.000</span>
+                            </div>
+                            <p class="item-desc">Kentang goreng renyah keemasan dengan saus sambal dan mayones.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="snacks">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Mix Platter</h3>
+                                <span class="item-price">Rp 28.000</span>
+                            </div>
+                            <p class="item-desc">Piring campur aneka snack pilihan, cocok untuk berbagi bersama teman.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="snacks">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Roti Bakar Coklat Keju ★</h3>
+                                <span class="item-price">Rp 20.000</span>
+                            </div>
+                            <p class="item-desc">Roti bakar renyah dengan olesan cokelat dan taburan keju lumer yang
+                                melimpah.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="snacks">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Roti Bakar Coklat / Keju</h3>
+                                <span class="item-price">Rp 18.000</span>
+                            </div>
+                            <p class="item-desc">Roti bakar dengan pilihan topping cokelat saja atau keju saja sesuai
+                                selera.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="snacks">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Pisang Goreng Klasik</h3>
+                                <span class="item-price">Rp 15.000</span>
+                            </div>
+                            <p class="item-desc">Pisang goreng tradisional renyah di luar, lembut manis di dalam.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="snacks">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Pisang Goreng Coklat Keju</h3>
+                                <span class="item-price">Rp 23.000</span>
+                            </div>
+                            <p class="item-desc">Pisang goreng dengan topping cokelat dan keju parut yang manis gurih.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="snacks">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Pisang Goreng Coklat / Keju ★</h3>
+                                <span class="item-price">Rp 20.000</span>
+                            </div>
+                            <p class="item-desc">Pisang goreng dengan pilihan topping cokelat atau keju sesuai selera.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="snacks">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Roti Maryam Original</h3>
+                                <span class="item-price">Rp 18.000</span>
+                            </div>
+                            <p class="item-desc">Roti maryam khas Timur Tengah yang lembut berlapis dengan rasa
+                                orisinil.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="snacks">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Roti Maryam Coklat / Keju</h3>
+                                <span class="item-price">Rp 20.000</span>
+                            </div>
+                            <p class="item-desc">Roti maryam lembut dengan topping cokelat atau keju pilihan.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="snacks">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Roti Maryam Coklat Keju ★</h3>
+                                <span class="item-price">Rp 23.000</span>
+                            </div>
+                            <p class="item-desc">Roti maryam premium dengan kombinasi cokelat dan keju sekaligus.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="snacks">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Pangsit Goreng</h3>
+                                <span class="item-price">Rp 15.000</span>
+                            </div>
+                            <p class="item-desc">Pangsit goreng renyah dengan isian daging cincang dan saus celup pedas.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="snacks">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Mini Wonton</h3>
+                                <span class="item-price">Rp 18.000</span>
+                            </div>
+                            <p class="item-desc">Wonton mini goreng renyah dengan isian daging dan saus spesial.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card" data-category="snacks">
+                        <div class="item-info">
+                            <div class="item-header">
+                                <h3 class="item-title">Tempe Mendoan</h3>
+                                <span class="item-price">Rp 15.000</span>
+                            </div>
+                            <p class="item-desc">Tempe mendoan khas Jawa setengah matang, renyah di luar dan lembut di
+                                dalam.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Our Story Section -->
+        <section id="story" class="section story-section">
+            <div class="container">
+                <div class="story-split">
+                    <!-- Story Image -->
+                    <div class="story-image scroll-reveal-fade">
+                        <img src="assets/kasir.jpg" alt="Ozeis Cafe interior story" loading="lazy">
+                    </div>
+
+                    <!-- Story Text & Timeline -->
+                    <div class="story-content scroll-reveal-fade" style="animation-delay: 0.3s;">
+                        <span class="section-subtitle">Kisah Kami</span>
+                        <h2 class="section-title">Our Story</h2>
+                        <div class="title-divider-left"></div>
+                        <p class="story-intro">Lahir dari kecintaan mendalam terhadap seni seduhan kopi dan kebutuhan
+                            akan ruang komunal yang nyaman, OZEIS CAFE hadir sebagai oase di tengah kesibukan kota.</p>
+                        <p class="story-desc">Kami percaya bahwa kopi terbaik bukan hanya tentang rasa, melainkan juga
+                            tentang koneksi hangat yang tercipta saat menikmatinya. Dengan kurasi biji kopi lokal dan
+                            internasional kualitas terbaik serta interior bergaya modern luxury yang dipadukan dengan
+                            sentuhan terracotta hangat, kami berdedikasi memberikan pengalaman kafe terbaik untuk Anda.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Location Section -->
+        <section id="location" class="section location-section">
+            <div class="container">
+                <div class="section-header scroll-reveal">
+                    <span class="section-subtitle">Temukan Kami</span>
+                    <h2 class="section-title">Location</h2>
+                    <div class="title-divider"></div>
+                </div>
+
+                <div class="location-split">
+                    <!-- Map Column -->
+                    <div class="location-map scroll-reveal-fade">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.3737039244343!2d119.4703048!3d-5.203819499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbee3001a14c5e9%3A0xec1bbca57fd1c7c1!2sOZEIS%20CAFE!5e0!3m2!1sen!2sid!4v1782979756808!5m2!1sen!2sid"
+                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="strict-origin-when-cross-origin" title="Peta Lokasi Ozeis Cafe">
+                        </iframe>
+                    </div>
+
+                    <!-- Info Column -->
+                    <div class="location-info scroll-reveal-fade" style="animation-delay: 0.3s;">
+                        <h3>OZEIS CAFE</h3>
+                        <p class="location-address">
+                            <i class="fa-solid fa-location-dot"></i>
+                            Ruko Flavour Walk, Citra Garden, Blk. D15 No.D12, Paccinongang, Kec. Somba Opu, Kabupaten
+                            Gowa, Sulawesi Selatan 92113
+                        </p>
+
+                        <div class="location-details">
+                            <div class="detail-item">
+                                <strong><i class="fa-regular fa-clock"></i> Jam Operasional: 08.00 - 00.00 WITA</strong>
+                            </div>
+                        </div>
+
+                        <div class="location-socials">
+                            <a href="https://instagram.com/_ozeis_" target="_blank"
+                                aria-label="Kunjungi Instagram Ozeis Cafe">
+                                <i class="fa-brands fa-instagram"></i> @_ozeis_
+                            </a>
+                            <a href="https://wa.me/6281234567890?text=Halo%20Ozeis%20Cafe" target="_blank"
+                                aria-label="Hubungi WhatsApp Ozeis Cafe">
+                                <i class="fa-brands fa-whatsapp"></i> +62 812-3456-7890
+                            </a>
+                        </div>
+
+                        <a href="https://maps.app.goo.gl/C4SHCn57VjBDuAiL9" target="_blank"
+                            class="btn btn-primary btn-direction">
+                            Get Direction <i class="fa-solid fa-location-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#home" class="footer-logo">OZEIS</a>
+                <p class="footer-slogan">Where Coffee Meets Comfort.</p>
+                <div class="footer-social-links">
+                    <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i
+                            class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i
+                            class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://wa.me/6281234567890" target="_blank" aria-label="WhatsApp"><i
+                            class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#story">Our Story</a></li>
+                    <li><a href="#location">Location</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h3>Newsletter</h3>
+                <p>Berlangganan info menu baru dan promo eksklusif.</p>
+                <form class="newsletter-form"
+                    onsubmit="event.preventDefault(); alert('Terima kasih telah berlangganan!');">
+                    <input type="email" placeholder="Alamat Email Anda" required aria-label="Alamat Email Anda">
+                    <button type="submit" aria-label="Kirim"><i class="fa-solid fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Ozeis Cafe. All rights reserved. Made for Technopreneurship Project.</p>
+        </div>
+    </footer>
+
+    <!-- Custom Script JS -->
+    <script src="app.js"></script>
+</body>
+
+</html>
